@@ -14,4 +14,45 @@ body {
 .header {
     border-bottom: 1px solid seashell;
     text-decoration: underline;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.headerSub {
+    display: inline-flex;
+
+}
+
+.header img {
+    justify-content: flex-start;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("./images/img-mission-background.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.missionSub {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-color: black;
+    height: 150px;
+}
+
+.tea {
+    width: 1000px;
+}
+
+.locations {
+    height: 500px;
+}
+
+.cozy {
+    height: 200px;
 }
