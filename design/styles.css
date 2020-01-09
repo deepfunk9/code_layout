@@ -13,7 +13,7 @@ body {
     position: absolute;
     top: 70px;
 
-    margin: auto;
+
 }
 
 .logo {
@@ -71,6 +71,29 @@ body {
 
 .tea {
     width: 1000px;
+}
+
+.thumbnailsOuter {
+    display: flex;
+    flex-direction: column;
+    width:  305px;
+}
+
+.thumbnails {
+    height: 200px;
+    width: 300px;
+    background-image: url('images/img-berryblitz.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.thumbnailsText {
+
+}
+
+.tea1 {
+    background-image: url('images/img-berryblitz.jpg');
 }
 
 .locations {
