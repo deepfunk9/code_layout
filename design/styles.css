@@ -3,8 +3,17 @@ body {
     font-size: 22px;
     color:seashell;
     background-color: black;
-    opacity: 0.9;
+    opacity: 0.8;
     text-align: center;
+    margin-top: 0px;
+
+}
+
+.scrollArea {
+    position: absolute;
+    top: 70px;
+
+    margin: auto;
 }
 
 .logo {
@@ -15,32 +24,47 @@ body {
     border-bottom: 1px solid seashell;
     text-decoration: underline;
     display: flex;
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    width: 100%;
     justify-content: flex-end;
+    background-image: url('images/img-tea-cozy-logo.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto 50px;
+    padding-left: 10px;
+    z-index: 2;
+
 }
-
-
 
 .headerSub {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
 
 }
 
-.header img {
-    justify-content: flex-start;
+.logo {
+
+
+
 }
 
 .mission {
     height: 700px;
     width: 1200px;
     background-image: url("./images/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+
 }
 
 .missionSub {
-    justify-content: center;
-    align-items: center;
-    display: block;
     background-color: black;
     height: 150px;
 }
