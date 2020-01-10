@@ -61,7 +61,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .missionSub {
@@ -69,37 +68,107 @@ body {
     height: 150px;
 }
 
-.tea {
+.centerSection {
+    display: flex;
+    justify-content: center;
+}
+
+.tea1 {
     width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tea2 {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .thumbnailsOuter {
     display: flex;
     flex-direction: column;
     width:  305px;
+    justify-content: space-between;
+    
 }
+
+#fall {
+    background-image: url('images/img-berryblitz.jpg');
+}
+
+#spiced {
+    background-image: url('images/img-spiced-rum.jpg');
+}
+
+#seasonal {
+    background-image: url('images/img-donut.jpg');
+}
+
+#myrtle {
+    background-image: url('images/img-myrtle-ave.jpg');
+}
+
+#bedford {
+    background-image: url('images/img-bedford-bizarre.jpg');
+}
+
 
 .thumbnails {
     height: 200px;
     width: 300px;
-    background-image: url('images/img-berryblitz.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+
+
 .thumbnailsText {
-
-}
-
-.tea1 {
-    background-image: url('images/img-berryblitz.jpg');
+    background-color: black;
 }
 
 .locations {
     height: 500px;
+    background-image: url('images/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.locationsCenter {
+    flex-direction: column;
+    align-self: center;
+}
+
+.locations, h2 {
+    padding: 15px;
+    margin: 0px;
+}
+
+.addressParent {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.addressChild {
+    background-color: black;
+    width: 300px;
+}
+
+.addressContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .cozy {
     height: 200px;
+}
+
+.copyright  {
+    display: flex;
+    padding-left: 20px;
 }
